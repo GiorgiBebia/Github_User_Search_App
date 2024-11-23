@@ -1,0 +1,31 @@
+.desktop_background,
+.background_black {
+  width: 1440px;
+  height: 900px;
+  background-color: #f6f8ff;
+  display: flex;
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background_black {
+  background-color: #141d2f;
+}
+
+@media (max-width: 768px) {
+  .desktop_background,
+  .background_black {
+    width: 768px;
+    height: 1024px;
+  }
+}
+
+@media (max-width: 375px) {
+  .desktop_background,
+  .background_black {
+    width: 375px;
+    height: 777px;
+  }
+}

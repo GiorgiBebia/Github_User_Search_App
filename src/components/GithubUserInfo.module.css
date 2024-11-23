@@ -1,0 +1,493 @@
+.info_div,
+.info_div_dark {
+  width: 730px;
+  height: 419px;
+  margin-top: 24px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.info_div_dark {
+  background-color: #1e2a47;
+}
+
+.image_user {
+  width: 634px;
+  height: 117px;
+  margin: 0 auto;
+  padding-top: 48px;
+  display: flex;
+  gap: 37px;
+}
+
+.user_image {
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+}
+
+.user_name_text,
+.user_name_text_dark {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 26px;
+  color: #2b3442;
+}
+
+.user_name_text_dark {
+  color: white;
+}
+
+.name_username {
+  display: flex;
+  flex-direction: column;
+}
+.name_username_date {
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.joined_time_text,
+.joined_time_text_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  color: #697c9a;
+  margin-top: 8px;
+}
+
+.joined_time_text_dark {
+  color: white;
+}
+
+.username_text {
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  color: #0079ff;
+  margin-top: 9px;
+}
+
+.bio_text,
+.bio_text_dark {
+  max-width: 480px;
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  color: #4b6a9b;
+  margin-top: 22px;
+}
+
+.bio_text_dark {
+  color: white;
+}
+
+.statistic_div {
+  width: 480px;
+  height: 185px;
+  margin-top: 21px;
+  margin-left: 202px;
+}
+
+.repos_followers_following,
+.repos_followers_following_dark {
+  width: 480px;
+  height: 85px;
+  background-color: #f6f8ff;
+  border-radius: 10px;
+  display: flex;
+}
+
+.repos_followers_following_dark {
+  background-color: #141d2f;
+}
+
+.repos {
+  width: 40px;
+  height: 53px;
+  margin-top: 15px;
+  margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.repos_text,
+.repos_text_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  color: #4b6a9b;
+  margin: 0;
+}
+
+.repos_text_dark {
+  color: white;
+}
+
+.repos_number,
+.repos_number_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  color: #2b3442;
+  font-weight: bold;
+  margin: 0;
+}
+
+.repos_number_dark {
+  color: white;
+}
+
+.followers {
+  width: 72px;
+  height: 53px;
+  margin-top: 15px;
+  margin-left: 99px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.followers_text,
+.followers_text_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  color: #4b6a9b;
+  margin: 0;
+}
+
+.followers_text_dark {
+  color: white;
+}
+
+.followers_number,
+.followers_number_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  color: #2b3442;
+  font-weight: bold;
+  margin: 0;
+}
+
+.followers_number_dark {
+  color: white;
+}
+
+.following {
+  width: 72px;
+  height: 53px;
+  margin-top: 15px;
+  margin-left: 82px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.following_text,
+.following_text_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  color: #4b6a9b;
+  margin: 0;
+}
+
+.following_text_dark {
+  color: white;
+}
+
+.following_number,
+.following_number_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  color: #2b3442;
+  font-weight: bold;
+  margin: 0;
+}
+
+.following_number_dark {
+  color: white;
+}
+
+.city_link_x_git {
+  width: 429px;
+  height: 63px;
+  display: flex;
+  gap: 62px;
+  margin-top: 37px;
+}
+
+.city_link {
+  width: 211px;
+  height: 63px;
+}
+
+.city {
+  width: 211px;
+  height: 22px;
+  display: flex;
+  gap: 19px;
+}
+
+.city_icon,
+.city_icon_dark {
+  width: 25px;
+  height: 25px;
+  color: #4b6a9b;
+}
+
+.city_icon_dark {
+  color: white;
+}
+
+.city_text,
+.city_text_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  color: #4b6a9b;
+}
+
+.city_text_dark {
+  color: white;
+}
+
+.link {
+  width: 220px;
+  height: 22px;
+  display: flex;
+  gap: 19px;
+  margin-top: 19px;
+}
+
+.link_icon,
+.link_icon_dark {
+  width: 25px;
+  height: 25px;
+  color: #4b6a9b;
+}
+
+.link_icon_dark {
+  filter: brightness(0) invert(1);
+}
+
+.link_text,
+.link_text_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  color: #4b6a9b;
+  cursor: pointer;
+}
+
+.link_text_dark {
+  color: white;
+}
+
+.link_text:hover {
+  text-decoration: underline;
+}
+
+.x_git {
+  width: 156px;
+  height: 59px;
+}
+
+.x {
+  width: 211px;
+  height: 22px;
+  display: flex;
+  gap: 19px;
+}
+
+.x_icon,
+.x_icon_dark {
+  width: 25px;
+  height: 25px;
+  color: #4b6a9b;
+}
+
+.x_icon_dark {
+  color: white;
+}
+
+.x_text,
+.x_text_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  color: #4b6a9b;
+}
+
+.x_text_dark {
+  color: white;
+}
+
+.git {
+  width: 211px;
+  height: 22px;
+  display: flex;
+  gap: 19px;
+  margin-top: 19px;
+}
+
+.git_icon,
+.git_icon_dark {
+  width: 25px;
+  height: 25px;
+  color: #4b6a9b;
+}
+
+.git_icon_dark {
+  filter: brightness(0) invert(1);
+}
+
+.git_text,
+.git_text_dark {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  color: #4b6a9b;
+}
+
+.git_text_dark {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .info_div,
+  .info_div_dark {
+    width: 573px;
+    height: 481px;
+  }
+
+  .image_user {
+    width: 493px;
+    height: 191px;
+    padding-top: 40px;
+    /* gap: 41px; */
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .name_username_date {
+    width: 330px;
+    flex-direction: column;
+  }
+
+  .bio_text_tablet,
+  .bio_text_dark_tablet {
+    max-width: 480px;
+    font-family: "Space Mono", monospace;
+    font-size: 15px;
+    color: #4b6a9b;
+    margin-top: 22px;
+  }
+  .bio_text_dark_tablet {
+    color: white;
+  }
+  .bio_text,
+  .bio_text_dark {
+    display: none;
+  }
+  .user_div {
+    margin-left: 41px;
+    margin-top: 12px;
+  }
+  .statistic_div {
+    width: 493px;
+    height: 178px;
+    margin-top: 32px;
+    margin-left: 40px;
+  }
+  .repos_followers_following,
+  .repos_followers_following_dark {
+    width: 493px;
+    display: flex;
+  }
+}
+
+@media (max-width: 375px) {
+  .info_div,
+  .info_div_dark {
+    width: 327px;
+    height: 517px;
+  }
+
+  .image_user {
+    width: 279px;
+    height: 178px;
+    padding-top: 32px;
+  }
+
+  .user_image {
+    width: 70px;
+    height: 70px;
+  }
+  .user_div {
+    margin-left: 19px;
+    margin-top: 1px;
+  }
+  .name_username_date {
+    width: 190px;
+    flex-direction: column;
+  }
+
+  .user_name_text,
+  .user_name_text_dark {
+    font-size: 16px;
+  }
+
+  .username_text {
+    margin-top: 0px;
+  }
+
+  .bio_text_tablet,
+  .bio_text_dark_tablet {
+    max-width: 279px;
+    font-size: 13px;
+    margin-top: 33px;
+  }
+  .bio_text,
+  .bio_text_dark {
+    display: none;
+  }
+
+  .statistic_div {
+    width: 279px;
+    height: 236px;
+    margin-top: 23px;
+    margin-left: 24px;
+  }
+  .repos_followers_following,
+  .repos_followers_following_dark {
+    width: 279px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .repos,
+  .followers,
+  .following {
+    margin-left: 0;
+  }
+
+  .repos_text,
+  .repos_text_dark,
+  .followers_text,
+  .followers_text_dark,
+  .following_text,
+  .following_text_dark {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .repos_number,
+  .repos_number_dark,
+  .followers_number,
+  .followers_number_dark,
+  .following_number,
+  .following_number_dark {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .city_link_x_git {
+    width: 185px;
+    height: 127px;
+    gap: 16px;
+    margin-top: 27px;
+    flex-direction: column;
+  }
+}

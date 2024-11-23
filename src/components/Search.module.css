@@ -1,0 +1,133 @@
+.search_div,
+.search_div_black {
+  width: 730px;
+  height: 69px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.search_div_black {
+  background-color: #1e2a47;
+}
+
+.search_icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 32px;
+  color: #0079ff;
+}
+
+.search_input,
+.search_input_width {
+  width: 530px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.search_input_width {
+  width: 440px;
+}
+
+.search_input_black {
+  background-color: #1e2a47;
+}
+
+.search_input_black::placeholder {
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  color: white !important;
+}
+.search_input::placeholder {
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  color: #4b6a9b;
+}
+
+.no_result_text,
+.no_result_text_show {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  color: #f74646;
+  display: none;
+}
+.no_result_text_show {
+  display: block;
+}
+
+.search_button {
+  width: 106px;
+  height: 50px;
+  background-color: #0079ff;
+  border-radius: 10px;
+  font-family: "Space Mono", monospace;
+  /* font-weight: bold; */
+  font-size: 16px;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.search_button:hover {
+  background-color: #60abff;
+}
+
+@media (max-width: 768px) {
+  .search_div,
+  .search_div_black {
+    width: 573px;
+    height: 69px;
+  }
+  .search_input {
+    width: 385px;
+  }
+  .search_input_width {
+    width: 270px;
+  }
+}
+
+@media (max-width: 375px) {
+  .search_div,
+  .search_div_black {
+    width: 327px;
+    height: 60px;
+  }
+
+  .search_icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+  }
+
+  .search_input {
+    width: 184px;
+  }
+  .search_input_width {
+    width: 90px;
+  }
+
+  .search_input_black::placeholder {
+    font-size: 13px;
+  }
+  .search_input::placeholder {
+    font-size: 13px;
+  }
+
+  .no_result_text,
+  .no_result_text_show {
+    font-size: 10px;
+  }
+
+  .search_button {
+    width: 84px;
+    height: 46px;
+    font-size: 14px;
+    border: none;
+    margin-right: 7px;
+  }
+}

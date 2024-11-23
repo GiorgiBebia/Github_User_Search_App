@@ -1,0 +1,22 @@
+.div_size {
+  width: 730px;
+  height: 586px;
+  margin: 0 auto;
+  margin-top: 144px;
+}
+
+@media (max-width: 768px) {
+  .div_size {
+    width: 573px;
+    height: 648px;
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 375px) {
+  .div_size {
+    width: 327px;
+    height: 667px;
+    margin-top: 31px;
+  }
+}
