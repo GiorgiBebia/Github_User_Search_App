@@ -152,7 +152,7 @@ export function GithubUserInfo({ userData, darkLight }: Props) {
             <div className={styles.link}>
               <img
                 className={darkLight ? styles.link_icon_dark : styles.link_icon}
-                src="/icon-website.svg"
+                src="icon-website.svg"
                 alt=""
               />
               <span
@@ -176,7 +176,7 @@ export function GithubUserInfo({ userData, darkLight }: Props) {
             <div className={styles.git}>
               <img
                 className={darkLight ? styles.git_icon_dark : styles.git_icon}
-                src="/icon-company.svg"
+                src="icon-company.svg"
                 alt=""
               />
               <span

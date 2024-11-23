@@ -79,6 +79,10 @@
 .bio_text_dark {
   color: white;
 }
+.bio_text_tablet,
+.bio_text_dark_tablet {
+  display: none;
+}
 
 .statistic_div {
   width: 480px;
@@ -369,6 +373,7 @@
 
   .bio_text_tablet,
   .bio_text_dark_tablet {
+    display: block;
     max-width: 480px;
     font-family: "Space Mono", monospace;
     font-size: 15px;
