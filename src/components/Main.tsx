@@ -5,6 +5,8 @@ import styles from "./Main.module.css";
 import { Search } from "./Search";
 
 type Props = {
+  userData: any;
+  searchUser: string;
   darkLight: boolean;
   setDarkLight: (value: boolean) => void;
 };
