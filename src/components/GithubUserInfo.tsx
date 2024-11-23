@@ -17,6 +17,7 @@ type UserData = {
 
 type Props = {
   userData: UserData | null;
+  searchUser: string;
   darkLight: boolean;
 };
 
