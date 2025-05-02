@@ -1,7 +1,7 @@
 .desktop_background,
 .background_black {
-  width: 1440px;
-  height: 900px;
+  width: 100%;
+  height: 100%;
   background-color: #f6f8ff;
   display: flex;
   margin-top: 0;
